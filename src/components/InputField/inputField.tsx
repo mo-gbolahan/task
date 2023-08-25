@@ -1,8 +1,8 @@
 import "./inputfield.style.css";
 
 interface Props {
-  todo: string,
-  setTodo: React.Dispatch<React.SetStateAction<string>>,
+  todo: string;
+  setTodo: React.Dispatch<React.SetStateAction<string>>;
 }
 
 const InputField = ({todo, setTodo}: Props) => {
