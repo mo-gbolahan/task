@@ -1,0 +1,38 @@
+.card__todo {
+  display: flex;
+  width: 80%;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.7rem;
+  margin-top: 1.5rem;
+  background-image: url("https://images.unsplash.com/photo-1503117388374-af436bb2be2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHllbGxvd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  font-size: 1.2rem;
+}
+.card__todo--text {
+  flex: 1;
+  border: none;
+  font-weight: bold;
+  padding: 0.4rem;
+}
+
+input.card__todo--text {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+input.card__todo--text:focus {
+  outline: none;
+}
+.icon {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 786px) {
+  .card__todo {
+    width: 35%;
+  }
+  .card__todo--text {
+    font-size: 1.2rem;
+  }
+}
